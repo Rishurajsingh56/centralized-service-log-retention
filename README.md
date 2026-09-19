@@ -144,7 +144,8 @@ curl -s "http://<LOKI_HOST>:3100/loki/api/v1/label/service_name/values"
 
 ## 7. My Role
 
-> Worked on the implementation, configuration, testing, troubleshooting, and documentation of a centralized Docker log retention workflow using Grafana Alloy and Grafana Loki, with object storage considered/used for longer-term retention.
+
+> Worked on the implementation, configuration, testing, troubleshooting, and documentation of a centralized Docker log retention and service log monitoring system using Grafana Alloy and Grafana Loki. Contributed to the design and implementation of the frontend and backend components for service log retrieval, filtering, and viewing, and integrated them with the centralized logging workflow. Implemented the application workflow for retrieving service logs based on server, service, and date/time criteria, along with log retention and historical log access requirements. Used Claude as an AI-assisted development tool during frontend and backend development, while implementing, integrating, testing, debugging, and validating the resulting solution. Also worked on the overall system configuration, deployment workflow, troubleshooting, and documentation, with object storage considered as the longer-term retention layer.
 
 This work was carried out as part of a DevOps Trainee role, with a focus on hands-on implementation and validation rather than end-to-end architectural ownership.
 
